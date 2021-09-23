@@ -13,6 +13,48 @@
     <div class="main">
       <div class="emoji mb-6">💣🤯💥</div>
       <button class="button">Boom?</button>
+      
     </div>
+
+    <div class="container">
+      <div class="element"></div>
+      <div class="element"></div>
+      <div class="element"></div>
+      <div class="element"></div>
+      <div class="element"></div>
+      <div class="element"></div>
+      <div class="element"></div>
+      <div class="element"></div>
+      <div class="element"></div>
+      <div class="element"></div>
+      <div class="element"></div>
+      <div class="element"></div>
+
+    </div>
+
+
+    <style>
+      body {
+        display: grid;
+        grid-template-columns: 150px 800px 150px;
+        
+      }
+
+      .container {
+        display: grid;
+        grid-column: 2/3;
+        grid-gap: 20px;
+        grid-template-columns: 250px 250px 250px;
+        grid-template-rows: 250px 250px 250px;
+        justify-content: space-around;
+      }
+
+      .element {
+        width: 250px;
+        height: 250px;
+        background-color: #bada55;
+      }
+
+    </style>
   </body>
 </html>
